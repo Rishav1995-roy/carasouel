@@ -5,3 +5,15 @@ A new Flutter project.
 ## Getting Started
 
 This is project is for a random carasouel project like tinder.
+
+### At first add all dependencies for this projects.
+
+### Create Login Screen with Simple and Google Login.
+
+### In Home Screen there are two sections one users and other is favorite.
+
+### In User section any user can see others user and via left swipe they can see the next user and if he swipes to right then the
+particular user can add as a favorite in user list.
+
+### In favorite Section user can see their favorite users and there is a button "clear all" via tap on it user can clear all its favorites
+data

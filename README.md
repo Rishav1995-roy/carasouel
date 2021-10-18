@@ -20,3 +20,7 @@ particular user can add as a favorite in user list.
 ### When user logs in right now all preference data will clear.
 
 ### For no-sound-null-safety this project will run in terminal with this command "flutter run --no-sound-null-safety"
+
+### Connection Checking for api call and social login try to implement but could not do it and also try to store the favorite list data
+in shared preference but could do it so I take a static list which will clear where removes the app from the background and also when login
+again.

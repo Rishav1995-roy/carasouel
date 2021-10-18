@@ -31,7 +31,7 @@ class ViewModel extends ChangeNotifier{
     try{
       isLoading=true;
       notifyListeners();
-      results=(await repo.getResults())!;
+      results=(await repo.getResults());
     }catch(e){
       isLoading=false;
       results=[];

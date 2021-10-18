@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:carasouel/providers.dart';
 import 'package:carasouel/userModel.dart';
 import 'package:dio/dio.dart';
@@ -12,11 +14,14 @@ class Repository {
     logger = read(loggerProvider);
   }
 
-  Future<List<Results>?> getResults() async {
+  Future<List<Results>> getResults() async {
     var dio = Dio();
     try {
       final response = await dio.get('https://randomuser.me/api/0.4/?randomapi');
-      final responseObj = BaseResponseModel.fromJson(response.data);
+      logger.d(response.data);
+      Map valueMap = jsonDecode(response.data);
+      logger.d(valueMap);
+      final responseObj = BaseResponseModel.fromJson(valueMap);
       logger.d(responseObj.results);
       List<Results> results = [];
       responseObj.results.forEach((v) {
@@ -28,10 +33,10 @@ class Repository {
     } on DioError catch (e) {
       logger.d(e.response?.data);
       logger.e("${e.error.toString()}");
-      return null;
+      return [];
     } catch (e) {
       logger.e("${e.toString()}");
-      return null;
+      return [];
     }
   }
 }

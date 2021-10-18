@@ -5,7 +5,7 @@ class BaseResponseModel {
    this.results,
   });
 
-  factory BaseResponseModel.fromJson(Map<String, dynamic> json) => BaseResponseModel(
+  factory BaseResponseModel.fromJson(Map<dynamic, dynamic> json) => BaseResponseModel(
     results: json["results"],
   );
 }

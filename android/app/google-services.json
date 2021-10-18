@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "649915056131",
+    "project_id": "carasouel",
+    "storage_bucket": "carasouel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649915056131:android:ec88aebfbd01e632498e36",
+        "android_client_info": {
+          "package_name": "com.example.carasouel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649915056131-oesp54m3a2h48gphkef9d1fgnim6aj1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carasouel",
+            "certificate_hash": "9eeddaac45df9bf16e71cba9ac3d589dd5324657"
+          }
+        },
+        {
+          "client_id": "649915056131-f0vkimb8robjui8pi42gnjru3oskednr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxAjiZTf34gVFIyYr1ZfV5muAjljhWXdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649915056131-f0vkimb8robjui8pi42gnjru3oskednr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

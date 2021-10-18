@@ -15,5 +15,8 @@ This is project is for a random carasouel project like tinder.
 ### In User section any user can see others user and via left swipe they can see the next user and if he swipes to right then the
 particular user can add as a favorite in user list.
 
-### In favorite Section user can see their favorite users and there is a button "clear all" via tap on it user can clear all its favorites
-data
+### In favorite Section user can see their favorite users
+
+### When user logs in right now all preference data will clear.
+
+### For no-sound-null-safety this project will run in terminal with this command "flutter run --no-sound-null-safety"
